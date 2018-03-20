@@ -1,0 +1,49 @@
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  font-family: "raleway", sans-serif;
+}
+
+.footer {
+    background-color: #111111;
+    color: #eeeeee;
+    border-top: 1px solid red;
+    height: auto;
+    padding-top: 40px;
+    display: block;
+    margin-top: 40px;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+
+footer .container {
+  margin-top: 20px;
+}
+
+.jumbotron {
+  margin-top: 100px;
+  height: auto;
+}
+
+.btn-success{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text{
+  margin-bottom: 0px;
+}
+
+.alert {
+  margin-bottom: 50px;
+}
+
+img{
+  width: 100%;
+}

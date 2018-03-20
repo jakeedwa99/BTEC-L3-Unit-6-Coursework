@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- header contains mets information and includes important css files -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="author" content="Jake Edwards" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <title>Fancy That</title>
+  <link rel="icon" href="favicon.ico" />
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/main.css" rel="stylesheet" />
+  <link href="assets/fonts/raleway/Raleway-Medium" rel="stylesheet" />
+</head>
+
+<!-- body contains everything you want to visually display on the webpage -->
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="index.html">Fancy That</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="social.html">Social</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Catologue
+  <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="catologue-mens.html">Mens</a></li>
+              <li><a href="catologue-womens.html">Womens</a></li>
+              <li><a href="catologue-kids-boy.html">Kids - Boys</a></li>
+              <li><a href="catologue-kids-girl.html">Kids - Girls</a></li>
+            </ul>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- jumbotron -->
+  <div class="container">
+    <div class="jumbotron">
+      <center>
+        <h1>Contact Us!</h1></center>
+    </div>
+  </div>
+  <!--Contact Inputs-->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-4">
+        <div class="form group">
+          <center><label for="usr">Name</label></center>
+          <input type="text" class="form-control margin-bottom" id="usr">
+        </div>
+      </div>
+    </div>
+    <!-- Email Input -->
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-4">
+        <div class="form group">
+          <center><label for="usr">Email Address</label></center>
+          <input type="text" class="form-control margin-bottom" id="usr">
+        </div>
+      </div>
+    </div>
+    <!-- Message Input -->
+    <div class="row">
+      <div class="form group">
+        <div class="col-lg-4 col-lg-offset-4">
+          <center><label for="usr">Message</label></center>
+          <textarea class="form-control margin-bottom" rows="3" id="usr"></textarea>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Button that allows the user to send the message-->
+    <center><a class="btn btn-success btn-lg" href="#" role="button" id="btn-submit">Send</a></center>
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-4">
+        <div id="alert">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- footer isn't exactly required but it's here to keep things seperated and neat -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Example column 1</h4>
+          <p>
+            This is an example footer column.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h4>Example column 2</h4>
+          <p>
+            This is an example footer column.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h4>Example column 3</h4>
+          <p>
+            This is an example footer column.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- you should always include javascript files at the bottom of the page because
+    they aren't that important and including them at the top of the page will force the
+    browser to download them before rendering the page - meaning the page loads slower -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </footer>
+
+</html>
