@@ -8,16 +8,14 @@ html {
 body {
   margin-bottom: 60px;
   font-family: "raleway", sans-serif;
+  margin-top: 100px;
 }
 
-.footer {
-    background-color: #111111;
-    color: #eeeeee;
-    border-top: 1px solid red;
+footer {
     height: auto;
     padding-top: 40px;
     display: block;
-    margin-top: 40px;
+    margin-top: 100px;
     box-sizing: border-box;
     position: relative;
     width: 100%;
@@ -40,10 +38,14 @@ footer .container {
   margin-bottom: 0px;
 }
 
-.alert {
-  margin-bottom: 50px;
+.img{
+  width: 100%;
+  margin-top: 15px;
+  padding-top: 15px;
+  margin-bottom: 660px;
 }
 
-img{
-  width: 100%;
+.margin-bottom {
+  margin-bottom: 5px;
+  vertical-align: baseline;
 }
