@@ -29,27 +29,3 @@ footer .container {
   height: auto;
 }
 
-.btn-success{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.text{
-  margin-bottom: 0px;
-}
-
-.img{
-  width: 100%;
-  margin-top: 15px;
-  padding-top: 15px;
-  margin-bottom: 660px;
-}
-
-.margin-bottom {
-  margin-bottom: 5px;
-  vertical-align: baseline;
-}
-
-.img-fluid{
-  margin-top: 10px;
-}
