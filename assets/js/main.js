@@ -11,5 +11,5 @@ $("#btn-submit").click(() => {
     $("#alert").html("<div class=\"alert alert-success\"<p>Your message has been sent.</p></div>");
     return;
   }
-  $("#alert").html("<div class=\"alert alert-danger\"<p>Enter a Valid Name and Email Address.</p><br><p1>Messages are limited to 250 characters</p></div>");
+  $("#alert").html("<div class=\"alert alert-danger\"<p>Enter a Valid Name and Email Address.</p></div>");
 });
