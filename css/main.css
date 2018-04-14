@@ -1,0 +1,34 @@
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  font-family: "raleway", sans-serif;
+  margin-top: 100px;
+}
+
+footer {
+    height: auto;
+    padding-top: 40px;
+    display: block;
+    margin-top: 100px;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+
+footer .container {
+  margin-top: 20px;
+}
+
+.jumbotron {
+  margin-top: 100px;
+  height: auto;
+}
+
+.img {
+  margin-bottom: 20px;
+}
